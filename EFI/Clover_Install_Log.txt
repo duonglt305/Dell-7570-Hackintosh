@@ -1,0 +1,53 @@
+
+Clover EFI installer log - Tue Dec 10 23:03:16 PST 2019
+Installer version: v2.5k r5100 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:       Microsoft Basic Data DATA1                   471.9 GB   disk0s1
+   2:       Microsoft Basic Data DATA2                   528.3 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         249.8 GB   disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.8 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume OSX - Data              4.1 GB     disk2s1
+   2:                APFS Volume Preboot                 83.9 MB    disk2s2
+   3:                APFS Volume Recovery                528.5 MB   disk2s3
+   4:                APFS Volume VM                      1.1 MB     disk2s4
+   5:                APFS Volume OSX                     10.8 GB    disk2s5
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.4 GB    disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Catalina  8.7 GB     disk3s2
+
+Target volume /Volumes/OSX on disk2 is APFS on physical store disk1s2
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/OSX/EFIROOTDIR/boot  to /Volumes/OSX/EFI-Backups/r5097/2019-12-10-23h03/boot
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r5097/2019-12-10-23h03/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

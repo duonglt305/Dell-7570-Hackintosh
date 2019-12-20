@@ -1,0 +1,210 @@
+11:192  0:813  Found BIOS RSDP at F0040
+11:192  0:000  Printing ACPI tables from RSDP F0040 ...
+11:192  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:192  0:000    (Xsdt: 8F2640C0, Rsdt: 8F264028)
+11:192  0:000    8F2640C0: 'XSDT', 'CBX3', Rev: 1, Len: 260
+11:192  0:000    8F264028: 'RSDT', 'CBX3', Rev: 1, Len: 148
+11:192  0:000    Tables in Xsdt: 28
+11:192  0:000    0. 8F288DE8: 'FACP', 'CBX3', Rev: 5, Len: 268
+11:192  0:000        (Dsdt: 8F264258, Facs: 8F93D180, XDsdt: 8F264258, XFacs: 0)
+11:192  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:194  0:002        8F93D180: 'FACS', Ver: 2, Len: 64
+11:194  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:194  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:194  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:194  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:194  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:194  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:194  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:194  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:194  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:194  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:194  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:194  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:194  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:194  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:194  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:194  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:194  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:194  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:194  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:194  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:194  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:194  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:194  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:194  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:194  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:194  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:194  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
+11:194  0:000    Tables in Rsdt: 28
+11:194  0:000    0. 8F2641D0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:194  0:000        (Dsdt: 8F264258, Facs: 8F93D140)
+11:194  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:197  0:002        8F93D140: 'FACS', Ver: 0, Len: 64
+11:197  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:197  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:197  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:197  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:197  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:197  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:197  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:197  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:197  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:197  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:197  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:197  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:197  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:197  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:197  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:197  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:197  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:197  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:197  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:197  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:197  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:197  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:197  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:197  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:197  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:197  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:197  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
+11:197  0:000  Found UEFI Acpi 2.0 RSDP at 8F264000
+11:197  0:000  Saving ACPI tables from RSDP 8F264000 to EFI\CLOVER\ACPI\origin ...
+11:197  0:000   8F264000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:197  0:000    (Xsdt: 8F2640C0, Rsdt: 8F264028)
+11:197  0:000    8F2640C0: 'XSDT', 'CBX3', Rev: 1, Len: 260
+11:197  0:000    8F264028: 'RSDT', 'CBX3', Rev: 1, Len: 148
+11:197  0:000    Tables in Xsdt: 28
+11:197  0:000    0. 8F288DE8: 'FACP', 'CBX3', Rev: 5, Len: 268
+11:197  0:000        (Dsdt: 8F264258, Facs: 8F93D180, XDsdt: 8F264258, XFacs: 0)
+11:197  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:199  0:002        8F93D180: 'FACS', Ver: 2, Len: 64
+11:199  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:199  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:199  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:199  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:199  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:199  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:199  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:199  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:199  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:199  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:199  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:199  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:199  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:199  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:199  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:199  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:199  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:199  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:199  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:199  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:199  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:199  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:199  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:199  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:199  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:199  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:199  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
+11:199  0:000    Tables in Rsdt: 28
+11:199  0:000    0. 8F2641D0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:199  0:000        (Dsdt: 8F264258, Facs: 8F93D140)
+11:199  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:201  0:002        8F93D140: 'FACS', Ver: 0, Len: 64
+11:201  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:201  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:201  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:201  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:201  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:201  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:201  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:201  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:201  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:201  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:201  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:201  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:201  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:201  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:201  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:201  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:201  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:201  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:201  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:201  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:201  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:201  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:201  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:201  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:201  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:201  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:201  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
+11:201  0:000  Found UEFI Acpi 1.0 RSDP at 8F264000
+11:201  0:000  Printing ACPI tables from RSDP 8F264000 ...
+11:201  0:000   8F264000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:201  0:000    (Xsdt: 8F2640C0, Rsdt: 8F264028)
+11:201  0:000    8F2640C0: 'XSDT', 'CBX3', Rev: 1, Len: 260
+11:201  0:000    8F264028: 'RSDT', 'CBX3', Rev: 1, Len: 148
+11:201  0:000    Tables in Xsdt: 28
+11:201  0:000    0. 8F288DE8: 'FACP', 'CBX3', Rev: 5, Len: 268
+11:201  0:000        (Dsdt: 8F264258, Facs: 8F93D180, XDsdt: 8F264258, XFacs: 0)
+11:201  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:203  0:002        8F93D180: 'FACS', Ver: 2, Len: 64
+11:203  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:203  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:203  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:203  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:203  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:203  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:203  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:203  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:203  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:203  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:203  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:203  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:203  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:203  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:203  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:203  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:203  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:203  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:203  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:203  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:203  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:203  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:203  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:203  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:203  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:203  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:203  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
+11:203  0:000    Tables in Rsdt: 28
+11:203  0:000    0. 8F2641D0: 'FACP', 'CBX3', Rev: 2, Len: 132
+11:203  0:000        (Dsdt: 8F264258, Facs: 8F93D140)
+11:203  0:000        8F264258: 'DSDT', 'CBX3', Rev: 2, Len: 150409
+11:205  0:002        8F93D140: 'FACS', Ver: 0, Len: 64
+11:205  0:000    1. 8F288EF8: 'APIC', 'CBX3', Rev: 3, Len: 188
+11:205  0:000    2. 8F288FB8: 'FPDT', 'CBX3', Rev: 1, Len: 68
+11:205  0:000    3. 8F289000: 'FIDT', 'CBX3', Rev: 1, Len: 172
+11:205  0:000    4. 8F2890B0: 'MCFG', 'CBX3', Rev: 1, Len: 60
+11:205  0:000    5. 8F2890F0: 'HPET', 'CBX3', Rev: 1, Len: 56
+11:205  0:000    6. 8F289128: 'SSDT', 'SataTabl', Rev: 1, Len: 1229
+11:205  0:000    7. 8F2895F8: 'BOOT', 'CBX3', Rev: 1, Len: 40
+11:205  0:000    8. 8F289620: 'SSDT', 'SaSsdt', Rev: 2, Len: 4825
+11:205  0:000    9. 8F28A900: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+11:205  0:000    10. 8F28A938: 'SSDT', 'xh_OEMBD', Rev: 2, Len: 4249
+11:205  0:000    11. 8F28B9D8: 'UEFI', '', Rev: 1, Len: 66
+11:205  0:000    12. 8F28BA20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+11:205  0:000    13. 8F28C900: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+11:205  0:000    14. 8F28C998: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+11:205  0:000    15. 8F28C9C0: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+11:205  0:000    16. 8F28CC60: 'SSDT', 'PtidDevc', Rev: 2, Len: 3647
+11:205  0:000    17. 8F28DAA0: 'DBGP', '', Rev: 1, Len: 52
+11:205  0:000    18. 8F28DAD8: 'DBG2', '', Rev: 0, Len: 97
+11:205  0:000    19. 8F28DB40: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1964
+11:205  0:000    20. 8F28E2F0: 'SSDT', 'DptfTabl', Rev: 2, Len: 35314
+11:205  0:000    21. 8F296CE8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+11:205  0:000    22. 8F296D40: 'SLIC', 'CBX3', Rev: 3, Len: 374
+11:205  0:000    23. 8F296EB8: 'SSDT', 'SgPch', Rev: 2, Len: 1711
+11:205  0:000    24. 8F297568: 'SSDT', 'SgUlx', Rev: 2, Len: 841
+11:205  0:000    25. 8F2978B8: 'BGRT', '', Rev: 0, Len: 56
+11:205  0:000    26. 8F2978F0: 'SSDT', 'OptTabl', Rev: 1, Len: 7406
+11:205  0:000    27. 8F2995E0: 'DMAR', 'KBL', Rev: 1, Len: 240
