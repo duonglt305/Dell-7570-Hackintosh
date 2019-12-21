@@ -7,3 +7,5 @@ MacOs Mojave & Catalina for Dell Inspiron 7570
 * Hard Disk: SSD Samsung NVMe PCIe 970 EVO PLUS 250GB
 * Sound Card: Realtek ALC295 (layout-id: 13) (Some noise and mic on headphones not working)
 * Wireless Card: Intel Wireless 7265 (Not working)
+
+*Make your hackintosh the better please contribute with me, because my hackintosh have some error not yet fix.*
