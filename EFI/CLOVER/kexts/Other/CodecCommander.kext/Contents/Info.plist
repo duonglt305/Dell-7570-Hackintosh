@@ -74,6 +74,8 @@
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0292</key>
 				<string>Realtek ALC292</string>
+				<key>10ec_0295</key>
+				<string>Realtek ALC295</string>
 				<key>10ec_0668</key>
 				<string>Realtek ALC668</string>
 				<key>10ec_0892_HDA_1458</key>
@@ -279,6 +281,52 @@
 							</data>
 							<key>Comment</key>
 							<string>0x15 SET_UNSOLICITED_ENABLE 0x83</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+					</array>
+					<key>Perform Reset</key>
+					<false/>
+				</dict>
+				<key>Realtek ALC295</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<string>0x01970724</string>
+							<key>Comment</key>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x24</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x01270700</string>
+							<key>Comment</key>
+							<string>0x12 SET_PIN_WIDGET_CONTROL 0x00</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<data>
+							AhcIgw==
+							</data>
+							<key>Comment</key>
+							<string>0x21 SET_UNSOLICITED_ENABLE 0x83</string>
 							<key>On Init</key>
 							<true/>
 							<key>On Sleep</key>
