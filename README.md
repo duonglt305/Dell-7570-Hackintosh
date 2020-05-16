@@ -8,8 +8,8 @@ Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.4)
 * Hard Disk: SSD Samsung NVMe PCIe 970 EVO PLUS 250GB
 * Sound Card: Realtek ALC3254/295 (layout-id: 13) (Mic on headphones not working) "Patched but not test")
 * Sleep/Wake: Working
-* Touchpad: Working with interrupt mode
-*  Fn: Working, except brightness keys not working (Working at Fn + S and Fn + B)
+* Touchpad: Working with Interrupt mode
+* Fn Feature: Working
 * Bluetooth: Working
 * Wireless Card: Intel(R) Dual Band Wireless-AC 7265 (InProgress Development)
 * Clover Version: 5117

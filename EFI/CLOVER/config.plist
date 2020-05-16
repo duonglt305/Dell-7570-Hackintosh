@@ -130,13 +130,13 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change BRT6 to XRT6 pair with SSDT-BRT6.aml</string>
+					<string>change Method(BRT6,2,N) to Method(BRTX,2,N) pair with SSDT-BRT6.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>QlJUNg==</data>
+					<data>IEJSVDY=</data>
 					<key>Replace</key>
-					<data>WFJUNg==</data>
+					<data>IEJSVFg=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
