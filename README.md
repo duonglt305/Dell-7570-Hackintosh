@@ -6,7 +6,7 @@ Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.4)
 * Integrated Graphics: Intel UHD Graphics 620
 * Memory: 16GB 2400GHz Kingmax / GSkill
 * Hard Disk: SSD Samsung NVMe PCIe 970 EVO PLUS 250GB
-* Sound Card: Realtek ALC3254/295 (layout-id: 13) (Mic on headphones not working) "Patched but not test")
+* Sound Card: Realtek ALC3254/295 (layout-id: 13) (Mic on jack headphones not working)
 * Sleep/Wake: Working
 * Touchpad: Working with Interrupt mode
 * Fn Feature: Working
