@@ -57,6 +57,8 @@
 			<dict>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>FixDisplay</key>
+				<false/>
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
@@ -117,16 +119,6 @@
 					<data>X1dBSwE=</data>
 					<key>Replace</key>
 					<data>WldBSwE=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>R1BSVwI=</data>
-					<key>Replace</key>
-					<data>WFBSVwI=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -191,6 +183,54 @@
 					<data>SEVDSQ==</data>
 					<key>Replace</key>
 					<data>SU1FSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WEhDXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>GLAN:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>R0xBTg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XDCI:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WERDSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>HDAS:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>SERBUw==</data>
 				</dict>
 			</array>
 		</dict>
@@ -261,7 +301,7 @@
 			<key>PciRoot(0)/Pci(0x02,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWWQ==</data>
+				<data>AAAbWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>complete-modeset-framebuffers</key>
@@ -282,12 +322,16 @@
 				<data>xwMAAA==</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>CgAAAA==</data>
+				<key>framebuffer-con1-preferred-lspcon-mode</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-flags</key>
 				<data>xwMAAA==</data>
+				<key>framebuffer-con2-preferred-lspcon-mode</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-flags</key>
