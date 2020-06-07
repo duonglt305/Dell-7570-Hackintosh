@@ -11,7 +11,7 @@ Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.4)
 * Touchpad: Working with Interrupt mode
 * Fn Feature: Working
 * Bluetooth: Working
-* Wireless Card: Intel(R) Dual Band Wireless-AC 7265 (InProgress Development)
-* Clover Version: 5117
+* Wireless Card: Intel(R) Dual Band Wireless-AC 7265 (InProgress Development) replaced to DW1560
+* Clover Version: 5119
 
 *Make your hackintosh the better please contribute with me, because my hackintosh have some error not yet fix.*
