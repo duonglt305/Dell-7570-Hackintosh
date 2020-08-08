@@ -51,8 +51,6 @@
 		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
 		<key>DSDT</key>
 		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
 			<key>Fixes</key>
 			<dict>
 				<key>Comment-IRQ Fix</key>
@@ -277,7 +275,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>dart=0 nv_disable=1 kext-dev-mode=1 igfxonln=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -460,8 +458,6 @@
 		<true/>
 		<key>KernelLapic</key>
 		<false/>
-		<key>KernelPm</key>
-		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>

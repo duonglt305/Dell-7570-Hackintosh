@@ -1,5 +1,5 @@
 # Dell-7570-Hackintosh
-Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.4)
+Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.6)
 ## Configuration
 * Processor: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (Kaby Lake-R)
 * QE/CI: Yes
@@ -12,6 +12,6 @@ Catalina for Dell Inspiron 7570 (Current version: Catalina 10.15.4)
 * Fn Feature: Working
 * Bluetooth: Working
 * Wireless Card: Intel(R) Dual Band Wireless-AC 7265 (InProgress Development) replaced to DW1560
-* Clover Version: 5119
+* Clover Version: 5120
 
 *Make your hackintosh the better please contribute with me, because my hackintosh have some error not yet fix.*
